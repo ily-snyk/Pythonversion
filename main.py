@@ -5,7 +5,7 @@ import platform
 from datetime import datetime
 
 def greet():
-    print("Hello, Python 3.11 project!")
+    print("Hello, Python 3.11 project! testing for snyk import")
     print(f"Running on Python version: {platform.python_version()}")
     print(f"Platform: {platform.system()} {platform.release()}")
     print(f"Current time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
